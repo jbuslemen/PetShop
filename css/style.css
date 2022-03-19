@@ -1,0 +1,136 @@
+@font-face {
+    font-family: foot;
+    src: url(../font/Roboto-Light.ttf);}
+
+    body{font-family: foot;}
+header{background-color: #F0A83E;}
+header section.barra {background-color: black;
+                      color: white;
+                    }
+header section.barra div {display:inline;  
+                          background-color: #0000;
+    
+                          
+
+}                    
+header section.barra div ul li {display:inline}                     
+header section.barra div ul { text-align: right;}
+
+
+header section.menu {display: inline;}
+
+header section.menu ul li { display: inline;}
+header section.menu ul{text-align: right;}
+
+
+
+
+
+main section.banner img{width:100%}
+main section.banner div p span{
+    color: black;
+    position: absolute;
+    width: 365px;
+    height: 54px;; 
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 30px
+}
+
+section.banner div p span button {text-align: center;font-size: 16px;
+                           background-color: #F0A83E;
+                           color: white;
+                           border-radius:5px;
+                           width: 141px;
+                           height: 49px;
+                           position: absolute;
+                           border: 1px solid;
+                           ; 
+                        }
+
+main section.produ div.destacado {text-align: center;}
+main section.produ div.destacado div p span{font-size: 40px;
+    color: black;}                          
+
+main section.produ div.items ul {text-align: center;}
+main section.produ div.items ul li{display:inline-block;}    
+
+    
+main section.produ div p span{color: #F0A83E;} 
+
+
+
+
+
+
+
+main section.contactanos1{ text-align: center;}
+main section.contactanos1 div input{
+    border: 1px solid #3C2313;
+    padding: 10px; 
+    background-color: #3C2313; 
+    color: #ffffff;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    }
+    main section.contactanos1 p {font-size: 25px;
+        color: #3C2313;}
+        main section.contacto2{text-align: center;}
+        main section.contacto2 button{
+            width: 110px;
+            height: 34px;
+            border: 1px solid;
+            padding: 10px;  
+            color: #ffffff;
+            text-decoration: none; 
+            text-transform: uppercase; 
+            border-radius: 15px;
+
+        }
+        main section.contacto2 button.uno {background-color: #8A8787}
+        main section.contacto2 button.dos {background-color:#F0A83E ;}  
+
+
+
+
+
+
+footer section.nav{background-color: #F0A83E;
+   
+
+}
+
+
+footer section.nav  span{font-size: 20px;
+font-weight: bold;}
+
+footer section.nav input{width: 271px;
+                        height: 30px;
+                        border-radius: 15px;
+                        border: 1px solid white ;
+                     }
+footer section.nav button{
+    border: 1px solid #3C2313;
+    padding: 10px; 
+    background-color: #3C2313; 
+    color: #ffffff;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    border-radius: 15px;}
+
+    footer section.nav div {text-align: right;}
+
+footer{background-color: #3C2313;color: white;
+       
+}
+footer section.derechos{background-color:#222222;
+       color:white;
+       font-family: foot;
+       text-align: center; 
+       font-size: 10px;
+    }
+
+    

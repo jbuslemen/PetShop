@@ -4,64 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>PAGINA PERROS</title>
 </head>
 <body>
     <header>
 
         <!--barra superiro-->
-
+<section class="barra">
+  <div>
          <div> <p> grandes ofertas  en comedor </p> </div>
-         <div><p>menu regional</p></div>
-         <div> <ul> 
-             <li> Español </li>
-             <li>$ARG</li>
+         <div> <ul type="none"> 
+             <li> <select name="Idioma">
+               <option> Espanol</option>
+               <option> Ingles</option>
+                   </select> 
+            </li> 
+
+             <li>
+               <select name="Moneda">
+                 <option>$ARG</option>
+                 <option>$USD</option>
+                 <option>$EUR</option>
+               </select>
+              </li>
             </ul></div>
-
+  </div>
+</section>
           <!--barra de menu principal-->
+          <section class="menu">
            <img src="./img/Logo.png" alt="logo"> 
-             <div> <p> Menu Principal </p></div>
-        <ul>
-            <li>categoria</li>
-            <li>pets</li>
-            <li>nosotros</li>
-            <li>contactanos</li>
+        <ul type="none">
+            <li><img src="./img/pawprint 4.png"> categoria</li>
+            <li><img src="./img/pawprint 4.png">  pets</li>
+            <li><img src="./img/pawprint 4.png">  nosotros</li>
+            <li> <img src="./img/pawprint 4.png"> contactanos</li>
         </ul>
-
+          </section>
     </header>
 
     <main>
 
  <!-- seccion banner-->
-
+<Section class="banner">
  <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="bowl and pet">
-        <div> <p>¡Es un placer tenerte aquí! </p></div>
+        <div> <p><span>¡Es un placer tenerte aquí!</span></p></div>
         <div> <p>¡Comederos en descuento! </p></div>
-        <div> <p>COMEDEROS </p></div>
-
+        <div> <p> <span> <button>COMEDEROS</button></span> </p></div>
+</Section>
 
  <!-- Seccion productos-->
-
+<section class="produ">
+  <div class="destacado">
         <img src="./img/pawprint 1.png" alt="pawprint">
-           <div><p>Productos Destacados </p></div>
-           <div> <p>Comederos - Accesorios - Comida</p></div>
+           <div><p><span> Productos Destacados</span> </p></div>
+           <div> <p> Comederos - Accesorios - Comida</p></div>
+  </div>   
+  <div class="items">    
+    <ul type="none">
+   <li class="churrasco">        
          <img src="./img/churrasquito.png" alt="churrasquito">
            <div> <p>Juguete Churrasquito </p></div>
-           <div> <p>$150</p></div>
-
+           <div> <p><span>$150</span></p></div>
+   </li>         
+  
+  <li class="comedero">
          <img src="./img/comedero.png" alt="comedero">
-           <div> <p> comedero para perro </p></div>
-           <div> <p>$250</p></div>
-
+         <div> <p> comedero para perro </p></div>
+         <div> <p><span>$250</span></p></div>
+  </li>       
+  
+  <li class="hueso">    
           <img src="./img/Huesito.png" alt="huesito" >
         <div> <p>juguete huesito </p></div>
-        <div> <p>$650</p></div>
+        <div> <p><span>$650</span></p></div>
+  </li>     
+  </ul>
+  </div>
+       
+  </section>
+  <section class="contactanos1">
+    <p>contactanos</p>
+<div><input type="text" placeholder="nombre completo" name="nombre"/></div>
+<br>
+<div> <input type="text" placeholder="Correo Electronico" name="email"/></div>
+<br>
+<div><input type="text"placeholder="Telefono" name="tel"/></div>
+  </section>
+<br>
+<br>
+<br>
+
+<section class="contacto2">
+  <button class="uno">Resetear</button><button class="dos">Enviar</button>
+
+</section>
+
 
     </main>
-
+<br><br><br>
 
     <footer>
+      <section class="nav">
+        <img src="./img/Group.png" alt="mail"> <span> Suscríbete para más novedades </span>
+        <div>
+        <input type="text" placeholder="Correo Electronico" name="email"/>
+        <button>Suscribete</button>
+        </div>
+      </section>
+      
+        <img src="./img/Icono-2.png" alt="icono2"> 
+        <br>
+        <img src="./img/Icono.png" alt="icono1">
+        <br>
+       <img src="./img/Icono-3.png" alt="icono3">    
+      <section class=" derechos">
          Todos los derechos reservados Front End
+         </section>
     </footer>
 
 
